@@ -1,16 +1,14 @@
 <?php
 
+namespace App\Sdks\Library\Error\Constants;
+
 /**
  * 错误类型
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Error\Constants;
-
 class ErrType
 {
-
     /**
      * 系统类型错误
      */

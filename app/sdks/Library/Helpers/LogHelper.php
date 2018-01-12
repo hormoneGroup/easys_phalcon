@@ -1,18 +1,17 @@
 <?php
+
+namespace App\Sdks\Library\Helpers;
+
+use \SeasLog as Log;
+
 /**
  * log帮助类库
  *
  * @author dusong <1264735045@qq.com>
  * @link https://github.com/Neeke/SeasLog
  */
-
-namespace App\Sdks\Library\Helpers;
-
-use \SeasLog as Log;
-
 class LogHelper
 {
-
     // debug信息、细粒度信息事件
     const DEBUG = 1;
 

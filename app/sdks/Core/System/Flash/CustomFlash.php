@@ -1,12 +1,5 @@
 <?php
 
-/**
- * 输出类库
- *
- * @package   App\Sdks\Core\System\Flash
- * @author    dusong <1264735045@qq.com>
- */
-
 namespace App\Sdks\Core\System\Flash;
 
 use App\Sdks\Library\Helpers\CommonHelper;
@@ -16,9 +9,13 @@ use Phalcon\Http\Response;
 use Phalcon\Di;
 use App\Sdks\Library\Helpers\DiHelper;
 
+/**
+ * 输出类库
+ *
+ * @author dusong <1264735045@qq.com>
+ */
 class CustomFlash extends Direct
 {
-
     /**
      * 输出json
      *
@@ -87,5 +84,4 @@ class CustomFlash extends Direct
     {
         $this->outputJson($data, $code, $msg);
     }
-
 }

@@ -1,20 +1,17 @@
 <?php
 
-/**
- * 调度器
- *
- * @package   App\Sdks\Core\System\Dispatcher
- * @author    dusong <1264735045@qq.com>
- */
-
 namespace App\Sdks\Core\System\Events;
 
 use App\Sdks\Library\Helpers\DiHelper;
 use Phalcon\Events\Manager as EventsManager;
 
+/**
+ * 调度器
+ *
+ * @author dusong <1264735045@qq.com>
+ */
 class DispatchEvents extends EventsManager
 {
-
     public function __construct()
     {
         $dispatchers = $this->getConfig()->class;

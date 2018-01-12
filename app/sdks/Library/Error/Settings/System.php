@@ -1,13 +1,12 @@
 <?php
 
+namespace App\Sdks\Library\Error\Settings;
+
 /**
  * 系统错误配置类
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Error\Settings;
-
 class System
 {
     // 错误码范围 1000~1999

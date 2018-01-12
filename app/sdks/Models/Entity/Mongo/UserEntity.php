@@ -1,13 +1,12 @@
 <?php
 
+namespace App\Sdks\Models\Entity\Mongo;
+
 /**
  * 用户实体
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Models\Entity\Mongo;
-
 class UserEntity extends MongoEntity
 {
 

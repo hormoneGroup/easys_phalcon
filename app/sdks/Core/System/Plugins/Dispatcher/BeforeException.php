@@ -1,11 +1,5 @@
 <?php
 
-/**
- * 跑出异常前触发插件
- *
- * @author dusong <1264735045@qq.com>
- */
-
 namespace App\Sdks\Core\System\Plugins\Dispatcher;
 
 use App\Sdks\Library\Exceptions\JsonFmtException;
@@ -17,6 +11,11 @@ use Phalcon\Events\Event;
 use Phalcon\Mvc\User\Plugin;
 use Phalcon\Mvc\Dispatcher\Exception as DispatchException;
 
+/**
+ * 抛出异常前触发插件
+ *
+ * @author dusong <1264735045@qq.com>
+ */
 class BeforeException extends Plugin
 {
     protected $flash;

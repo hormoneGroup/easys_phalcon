@@ -1,11 +1,5 @@
 <?php
 
-/**
- * 循环调度前触发插件
- *
- * @author dusong <1264735045@qq.com>
- */
-
 namespace App\Sdks\Core\System\Plugins\Dispatcher;
 
 use App\Sdks\Library\Helpers\DiHelper;
@@ -13,6 +7,11 @@ use Phalcon\Mvc\Dispatcher;
 use Phalcon\Events\Event;
 use Phalcon\Mvc\User\Plugin;
 
+/**
+ * 循环调度前触发插件
+ *
+ * @author dusong <1264735045@qq.com>
+ */
 class BeforeDispatchLoop extends Plugin
 {
     protected $router;

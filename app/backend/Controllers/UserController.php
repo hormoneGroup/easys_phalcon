@@ -1,19 +1,17 @@
 <?php
 
-/**
- * 用户控制器
- *
- * @author dusong <1264735045@qq.com>
- */
-
 use App\Backend\Controllers\BaseController;
 use App\Sdks\Library\Error\Exceptions\CustomException;
 use App\Sdks\Library\Exceptions\JsonFmtException;
 use App\Sdks\Services\UserService;
 
+/**
+ * 用户控制器
+ *
+ * @author dusong <1264735045@qq.com>
+ */
 class UserController extends BaseController
 {
-
     /**
      * 注册用户
      *

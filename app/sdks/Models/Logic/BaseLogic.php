@@ -1,18 +1,16 @@
 <?php
 
+namespace App\Sdks\Models\Logic;
+
+use App\Sdks\Library\Helpers\DiHelper;
+
 /**
  * 逻辑层基类
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Models\Logic;
-
-use App\Sdks\Library\Helpers\DiHelper;
-
 class BaseLogic
 {
-
     /**
      * 获取全局共享的DI服务
      *

@@ -1,18 +1,16 @@
 <?php
 
+namespace App\Sdks\Core\System\Plugins;
+
+use Phalcon\Security;
+
 /**
  * 安全加密插件
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Core\System\Plugins;
-
-use Phalcon\Security;
-
 class CustomSecurity extends Security
 {
-
     /**
      * 生成密码
      *

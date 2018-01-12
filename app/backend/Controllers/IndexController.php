@@ -1,11 +1,5 @@
 <?php
 
-/**
- * 默认控制器
- *
- * @author dusong <1264735045@qq.com>
- */
-
 use App\Backend\Controllers\BaseController;
 use App\Sdks\Library\Error\Exceptions\CustomException;
 use App\Sdks\Library\Exceptions\JsonFmtException;
@@ -14,9 +8,13 @@ use App\Sdks\Library\Error\handlers\Err;
 use App\Sdks\Library\Error\Settings\CoreLogic;
 use App\Sdks\Services\UserService;
 
+/**
+ * 默认控制器
+ *
+ * @author dusong <1264735045@qq.com>
+ */
 class IndexController extends BaseController
 {
-
     /**
      * @throws JsonFmtException
      */

@@ -1,18 +1,16 @@
 <?php
 
-/**
- * Di容器类库
- *
- * @author dusong <1264735045@qq.com>
- */
-
 namespace App\Sdks\Library\Helpers;
 
 use Phalcon\Di;
 
+/**
+ * DI容器类库
+ *
+ * @author dusong <1264735045@qq.com>
+ */
 class DiHelper
 {
-
     /**
      * 获取全局共享的DI服务
      *

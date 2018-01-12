@@ -1,19 +1,17 @@
 <?php
 
+namespace App\Sdks\Core\Logic\Router\Filter;
+
+use Inhere\Validate\Filter\Filtration;
+
 /**
  * 路由过滤器基类
  *
  * @author dusong <1264735045@qq.com>
  * @link https://github.com/inhere/php-validate#built-in-validators
  */
-
-namespace App\Sdks\Core\Logic\Router\Filter;
-
-use Inhere\Validate\Filter\Filtration;
-
 class BaseFilter extends Filtration
 {
-
     /**
      * 过滤数据
      *

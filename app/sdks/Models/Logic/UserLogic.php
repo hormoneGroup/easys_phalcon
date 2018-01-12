@@ -1,11 +1,5 @@
 <?php
 
-/**
- * 用户逻辑
- *
- * @author dusong <1264735045@qq.com>
- */
-
 namespace App\Sdks\Models\Logic;
 
 use App\Sdks\Library\Error\ErrorHandle;
@@ -14,9 +8,13 @@ use App\Sdks\Library\Error\Settings\CoreLogic;
 use App\Sdks\Library\Helpers\IdHelper;
 use App\Sdks\Models\Dao\UserDao;
 
+/**
+ * 用户逻辑
+ *
+ * @author dusong <1264735045@qq.com>
+ */
 class UserLogic extends BaseLogic
 {
-
     /**
      * 获取UserDao类
      *

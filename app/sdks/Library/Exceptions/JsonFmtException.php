@@ -1,16 +1,14 @@
 <?php
 
+namespace App\Sdks\Library\Exceptions;
+
 /**
  * JSON业务异常类库
  *
- * @author  dusong <1264735045@qq.com>
+ * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Exceptions;
-
 class JsonFmtException extends \Exception
 {
-
     protected $data = [];
 
     /**

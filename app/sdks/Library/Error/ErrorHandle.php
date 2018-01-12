@@ -1,15 +1,14 @@
 <?php
 
+namespace App\Sdks\Library\Error;
+
+use App\Sdks\Library\Error\handlers\Err;
+
 /**
  * 错误处理类
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Error;
-
-use App\Sdks\Library\Error\handlers\Err;
-
 class ErrorHandle
 {
     /**

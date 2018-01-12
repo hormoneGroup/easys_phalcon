@@ -1,15 +1,14 @@
 <?php
+
+namespace App\Sdks\Library\Helpers;
+
 /**
  * ID生成类库
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Helpers;
-
 class IdHelper
 {
-
     /**
      * 设置node节点ID
      *

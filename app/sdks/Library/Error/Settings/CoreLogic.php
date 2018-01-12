@@ -1,16 +1,14 @@
 <?php
 
+namespace App\Sdks\Library\Error\Settings;
+
 /**
  * 核心业务逻辑错误配置类
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Error\Settings;
-
 class CoreLogic
 {
-
     // 错误码范围 2000 ~ 3000
 
     // 全局配置(2000 ~ 2029)

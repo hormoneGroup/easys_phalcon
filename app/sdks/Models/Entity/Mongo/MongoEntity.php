@@ -1,15 +1,14 @@
 <?php
 
+namespace App\Sdks\Models\Entity\Mongo;
+
+use App\Sdks\Library\Helpers\DiHelper;
+
 /**
  * mongo实体层基类
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Models\Entity\Mongo;
-
-use App\Sdks\Library\Helpers\DiHelper;
-
 abstract class MongoEntity
 {
     protected $mongodb;

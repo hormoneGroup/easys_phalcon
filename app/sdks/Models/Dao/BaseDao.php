@@ -1,13 +1,12 @@
 <?php
 
+namespace App\Sdks\Models\Dao;
+
 /**
  * 数据路由层基类
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Models\Dao;
-
 class BaseDao
 {
     /**

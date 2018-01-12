@@ -1,8 +1,10 @@
 <?php
 
+namespace App\Sdks\Library\Error\Constants;
+
 /**
  * 错误级别常量
- * 
+ *
  *    0       Emergency: system is unusable
  *    1       Alert: action must be taken immediately
  *    2       Critical: critical conditions
@@ -11,15 +13,12 @@
  *    5       Notice: normal but significant condition
  *    6       Informational: informational messages
  *    7       Debug: debug-level messages
- * 
+ *
  * 根据实际需求精简
- * 
+ *
  * @link   http://tools.ietf.org/html/rfc5424
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Error\Constants;
-
 class ErrLevel
 {
     const ALERT     = 1;

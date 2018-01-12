@@ -1,18 +1,16 @@
 <?php
 
+namespace App\Sdks\Library\Error;
+
+use App\Sdks\Library\Helpers\CommonHelper;
+
 /**
  * 错误处理帮助类
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Error;
-
-use App\Sdks\Library\Helpers\CommonHelper;
-
 class ErrorHelper
 {
-
     /**
      * 获取堆栈信息
      *

@@ -1,18 +1,16 @@
 <?php
 
+namespace App\Sdks\Core\Logic\Router\Validate\User;
+
+use App\Sdks\Core\Logic\Router\Validate\BsseValidate;
+
 /**
  * 用户信息验证器
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Core\Logic\Router\Validate\User;
-
-use App\Sdks\Core\Logic\Router\Validate\BsseValidate;
-
 class GetUserInfo extends BsseValidate
 {
-
     public function rules()
     {
         return [
@@ -28,5 +26,4 @@ class GetUserInfo extends BsseValidate
             'uid.number'   => '用户ID不合法',
         ];
     }
-
 }

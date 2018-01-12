@@ -1,15 +1,14 @@
 <?php
 
+namespace App\Sdks\Models\Dao;
+
+use App\Sdks\Models\Entity\Mongo\UserEntity;
+
 /**
  * 用户数据路由层
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Models\Dao;
-
-use App\Sdks\Models\Entity\Mongo\UserEntity;
-
 class UserDao extends BaseDao
 {
 

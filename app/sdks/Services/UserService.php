@@ -1,18 +1,16 @@
 <?php
 
+namespace App\Sdks\Services;
+
+use App\Sdks\Models\Logic\UserLogic;
+
 /**
  * 用户服务
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Services;
-
-use App\Sdks\Models\Logic\UserLogic;
-
 class UserService extends BaseService
 {
-
     /**
      * 获取UserLogic类
      *

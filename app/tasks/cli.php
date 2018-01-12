@@ -15,7 +15,7 @@ function getModuleTask($task)
         exit("task need at least 2 parameters");
     }
 
-    $class  = array_pop($modules);
+    $class  = ucfirst(array_pop($modules));
     $module = '';
     foreach ($modules as $m) {
         $module .= '\\' . ucfirst($m);
@@ -56,4 +56,3 @@ require ROOT_PATH . "/app/bootstrap/bootstrap.php";
 
 // 处理参数
 $console->handle($arguments);
-

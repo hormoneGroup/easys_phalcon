@@ -1,20 +1,17 @@
 <?php
 
-/**
- * 路由类库
- *
- * @package   App\Sdks\Core\System\Router
- * @author    dusong <1264735045@qq.com>
- */
-
 namespace App\Sdks\Core\System\Router;
 
 use App\Sdks\Library\Helpers\DiHelper;
 use Phalcon\Mvc\Router;
 
+/**
+ * 路由类库
+ *
+ * @author dusong <1264735045@qq.com>
+ */
 class CustomRouter extends Router
 {
-
     /**
      * 执行路由
      *

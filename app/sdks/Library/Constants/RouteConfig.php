@@ -1,13 +1,12 @@
 <?php
 
+namespace App\Sdks\Library\Constants;
+
 /**
  * 路由配置
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Constants;
-
 class RouteConfig
 {
 

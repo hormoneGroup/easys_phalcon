@@ -1,21 +1,19 @@
 <?php
 
-/**
- * mysql适配器
- *
- * @package   App\Sdks\Core\System\Db
- * @author    dusong <1264735045@qq.com>
- */
-
 namespace App\Sdks\Core\System\Db;
 
 use App\Sdks\Library\Helpers\DiHelper;
 use Phalcon\Db\Profiler;
 use Phalcon\Logger;
 
+/**
+ * mysql适配器
+ *
+ * @package   App\Sdks\Core\System\Db
+ * @author    dusong <1264735045@qq.com>
+ */
 class CustomMysql
 {
-
     /**
      * 数据库超时重连次数
      *

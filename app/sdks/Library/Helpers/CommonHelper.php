@@ -1,17 +1,14 @@
 <?php
 
+namespace App\Sdks\Library\Helpers;
+
 /**
  * 公用函数类库
  *
- * @package   App\Sdks\Library\Helpers
- * @author    dusong <1264735045@qq.com>
+ * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Library\Helpers;
-
 class CommonHelper
 {
-
     /**
      * 系统启动时间
      *

@@ -1,18 +1,16 @@
 <?php
 
+namespace App\Sdks\Core\System\Application;
+
+use Phalcon\Mvc\Application;
+
 /**
  * 自定义应用类库
  *
  * @author dusong <1264735045@qq.com>
  */
-
-namespace App\Sdks\Core\System\Application;
-
-use Phalcon\Mvc\Application;
-
 class CustomApplication extends Application
 {
-
     /**
      * Register the services here to make them general or register
      * in the ModuleDefinition to make them module-specific
@@ -29,5 +27,4 @@ class CustomApplication extends Application
     {
         $this->handle()->send();
     }
-
 }

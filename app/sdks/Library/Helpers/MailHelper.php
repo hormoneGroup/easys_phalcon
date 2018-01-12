@@ -1,16 +1,15 @@
 <?php
+
+namespace App\Sdks\Library\Helpers;
+
 /**
  * 邮件帮助类库
  *
  * @author dusong <1264735045@qq.com>
  * @link https://swiftmailer.symfony.com
  */
-
-namespace App\Sdks\Library\Helpers;
-
 class MailHelper
 {
-
     /**
      * 获取配置
      *
