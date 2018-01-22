@@ -11,7 +11,7 @@ use App\Sdks\Models\Dao\UserDao;
 /**
  * 用户逻辑
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class UserLogic extends BaseLogic
 {

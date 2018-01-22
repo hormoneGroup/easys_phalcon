@@ -5,7 +5,7 @@ namespace App\Sdks\Library\Helpers;
 /**
  * ID生成类库
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class IdHelper
 {

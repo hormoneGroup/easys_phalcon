@@ -5,7 +5,7 @@ namespace App\Sdks\Library\Error\Settings;
 /**
  * 系统错误配置类
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class System
 {

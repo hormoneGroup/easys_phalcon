@@ -5,7 +5,7 @@ namespace App\Sdks\Library\Helpers;
 /**
  * 邮件帮助类库
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  * @link https://swiftmailer.symfony.com
  */
 class MailHelper

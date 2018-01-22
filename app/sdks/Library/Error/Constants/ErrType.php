@@ -5,7 +5,7 @@ namespace App\Sdks\Library\Error\Constants;
 /**
  * 错误类型
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class ErrType
 {

@@ -12,7 +12,7 @@ use App\Sdks\Library\Helpers\DiHelper;
 /**
  * 输出类库
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class CustomFlash extends Direct
 {

@@ -5,11 +5,10 @@ namespace App\Sdks\Models\Entity\Mongo;
 /**
  * 用户实体
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class UserEntity extends MongoEntity
 {
-
     public $id;
     public $uid;
     public $user_name;

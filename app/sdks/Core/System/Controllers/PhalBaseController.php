@@ -7,7 +7,7 @@ use Phalcon\Mvc\Controller;
 /**
  * 框架控制器类库
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class PhalBaseController extends Controller
 {

@@ -5,7 +5,7 @@ namespace App\Sdks\Library\Exceptions;
 /**
  * JSON业务异常类库
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class JsonFmtException extends \Exception
 {

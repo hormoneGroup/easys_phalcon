@@ -8,7 +8,7 @@ use Phalcon\Mvc\Router;
 /**
  * 路由类库
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class CustomRouter extends Router
 {

@@ -7,7 +7,7 @@ use Phalcon\Di;
 /**
  * DI容器类库
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class DiHelper
 {

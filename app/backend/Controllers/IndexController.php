@@ -11,7 +11,7 @@ use App\Sdks\Services\UserService;
 /**
  * 默认控制器
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class IndexController extends BaseController
 {

@@ -7,7 +7,7 @@ use App\Sdks\Core\Logic\Router\Filter\BaseFilter;
 /**
  * 用户注册过滤器
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class Login extends BaseFilter
 {

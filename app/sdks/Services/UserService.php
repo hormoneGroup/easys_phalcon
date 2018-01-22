@@ -7,7 +7,7 @@ use App\Sdks\Models\Logic\UserLogic;
 /**
  * 用户服务
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class UserService extends BaseService
 {

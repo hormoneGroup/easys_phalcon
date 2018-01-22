@@ -10,7 +10,7 @@ use Phalcon\Mvc\User\Plugin;
 /**
  * 循环调度前触发插件
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class BeforeDispatchLoop extends Plugin
 {

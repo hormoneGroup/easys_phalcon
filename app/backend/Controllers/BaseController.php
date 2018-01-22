@@ -7,7 +7,7 @@ use App\Sdks\Core\System\Controllers\PhalBaseController;
 /**
  * 控制器基类
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class BaseController extends PhalBaseController
 {

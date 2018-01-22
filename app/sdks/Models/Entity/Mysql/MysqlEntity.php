@@ -7,7 +7,7 @@ use Phalcon\Mvc\Model;
 /**
  * mysql实体层基类
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class MysqlEntity extends Model
 {

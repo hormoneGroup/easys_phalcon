@@ -10,7 +10,7 @@ use App\Sdks\Library\Error\Extensions\ErrExtension;
 /**
  * 错误处理基类
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class Err
 {

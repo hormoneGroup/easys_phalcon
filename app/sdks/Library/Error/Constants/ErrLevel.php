@@ -17,7 +17,7 @@ namespace App\Sdks\Library\Error\Constants;
  * 根据实际需求精简
  *
  * @link   http://tools.ietf.org/html/rfc5424
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class ErrLevel
 {

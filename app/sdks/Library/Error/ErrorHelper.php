@@ -7,7 +7,7 @@ use App\Sdks\Library\Helpers\CommonHelper;
 /**
  * 错误处理帮助类
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class ErrorHelper
 {

@@ -7,7 +7,7 @@ use Phalcon\Mvc\Application;
 /**
  * 自定义应用类库
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class CustomApplication extends Application
 {

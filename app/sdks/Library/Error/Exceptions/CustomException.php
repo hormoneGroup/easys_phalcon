@@ -5,7 +5,7 @@ namespace App\Sdks\Library\Error\Exceptions;
 /**
  * 自定义异常类
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class CustomException extends \Exception
 {

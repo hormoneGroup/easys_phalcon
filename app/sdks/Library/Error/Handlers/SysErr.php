@@ -7,7 +7,7 @@ use App\Sdks\Library\Error\Settings\System;
 /**
  * 系统相关错误类
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class SysErr extends Err implements ErrInterface
 {

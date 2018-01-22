@@ -7,7 +7,7 @@ use App\Sdks\Library\Error\handlers\Err;
 /**
  * 错误处理类
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class ErrorHandle
 {

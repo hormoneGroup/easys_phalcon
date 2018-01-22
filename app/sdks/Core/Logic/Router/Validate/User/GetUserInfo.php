@@ -7,7 +7,7 @@ use App\Sdks\Core\Logic\Router\Validate\BsseValidate;
 /**
  * 用户信息验证器
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class GetUserInfo extends BsseValidate
 {

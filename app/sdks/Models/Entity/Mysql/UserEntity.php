@@ -5,15 +5,12 @@ namespace App\Sdks\Models\Entity\Mysql;
 /**
  * 用户实体
  *
- * @author    dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class UserEntity extends MysqlEntity
 {
-
     public $id;
-
     public $name;
-
     public $password;
 
     public function getSource()

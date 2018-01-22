@@ -7,7 +7,7 @@ use \SeasLog as Log;
 /**
  * log帮助类库
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  * @link https://github.com/Neeke/SeasLog
  */
 class LogHelper

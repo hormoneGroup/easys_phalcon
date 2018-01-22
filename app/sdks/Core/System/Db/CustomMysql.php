@@ -9,8 +9,7 @@ use Phalcon\Logger;
 /**
  * mysql适配器
  *
- * @package   App\Sdks\Core\System\Db
- * @author    dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class CustomMysql
 {

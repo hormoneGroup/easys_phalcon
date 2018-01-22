@@ -17,7 +17,7 @@ use Phalcon\Mvc\User\Plugin;
 /**
  * 执行路由前触发插件
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class BeforeExecuteRoute extends Plugin
 {

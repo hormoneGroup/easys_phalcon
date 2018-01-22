@@ -14,7 +14,7 @@ use Phalcon\Mvc\Dispatcher\Exception as DispatchException;
 /**
  * 抛出异常前触发插件
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class BeforeException extends Plugin
 {

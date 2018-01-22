@@ -7,11 +7,10 @@ use App\Sdks\Models\Entity\Mongo\UserEntity;
 /**
  * 用户数据路由层
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class UserDao extends BaseDao
 {
-
     /**
      * 获取实体类
      *

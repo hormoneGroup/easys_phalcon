@@ -7,7 +7,7 @@ use App\Sdks\Library\Error\Settings\CoreLogic;
 /**
  * 核心业务逻辑相关错误类
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class CoreLogicErr extends Err implements ErrInterface
 {

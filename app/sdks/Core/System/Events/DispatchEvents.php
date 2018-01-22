@@ -8,7 +8,7 @@ use Phalcon\Events\Manager as EventsManager;
 /**
  * 调度器
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class DispatchEvents extends EventsManager
 {

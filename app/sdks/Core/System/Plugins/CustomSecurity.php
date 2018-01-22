@@ -7,7 +7,7 @@ use Phalcon\Security;
 /**
  * 安全加密插件
  *
- * @author dusong <1264735045@qq.com>
+ * @author dusong<1264735045@qq.com>
  */
 class CustomSecurity extends Security
 {
