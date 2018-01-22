@@ -53,7 +53,7 @@ class MailHelper
         // 发送附件
         if ($attachments) {
             foreach ($attachments as $attachment) {
-                $message->attach((\Swift_Attachment::fromPath($attachment['path'])));
+                $message->attach(\Swift_Attachment::fromPath($attachment['path']));
             }
         }
 
