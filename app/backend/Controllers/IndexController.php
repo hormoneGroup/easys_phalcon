@@ -28,7 +28,7 @@ class IndexController extends BaseController
          * 实体层(entity)       无调用
          */
         try {
-            $this->flash->successJson('hello world!');
+            $this->flash->successJson('hello world==!');
         } catch (CustomException $e) {
             throw new JsonFmtException($e->getMessage(), $e->getCode());
         }

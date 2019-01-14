@@ -419,4 +419,19 @@ class CommonHelper
         return $var;
     }
 
+    /**
+     * 获取类的所有父类名称,放入数组中
+     *
+     * @param  string $class
+     * @return array
+     */
+    public static function getParentsOfClass($class)
+    {
+        for ($classes = []; $class = get_parent_class($class); $classes[] = $class) {
+            ;
+        }
+
+        return $classes;
+    }
+
 }

@@ -3,6 +3,7 @@
 namespace App\Sdks\Models\Entity\Mysql;
 
 use Phalcon\Mvc\Model;
+use App\Sdks\Core\Traits\CacheTraits;
 
 /**
  * mysql实体层基类
@@ -11,5 +12,5 @@ use Phalcon\Mvc\Model;
  */
 class MysqlEntity extends Model
 {
-
+    use CacheTraits;
 }

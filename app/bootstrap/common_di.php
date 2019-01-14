@@ -115,7 +115,7 @@ $di->set('security', function () {
  * 注册主redis服务
  */
 $di->set('redis', function () use ($config) {
-    $redis_config = $config->redis_server->main;
+    $redis_config = $config->redis->main;
     $redis = new \Redis();
     $redis->connect($redis_config->host, $redis_config->port);
     if (isset($redis_config->auth)) {

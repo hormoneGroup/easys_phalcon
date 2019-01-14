@@ -14,6 +14,7 @@ class CoreLogic
     // 全局配置(2000 ~ 2029)
     const INVALID_PARAM         = 2000;
     const REQUEST_METHOD_ERROR  = 2001;
+    const CACHE_ERROR           = 2002;
 
 
     // 业务逻辑配置(2030 ~ 2999)
@@ -39,6 +40,9 @@ class CoreLogic
         ],
         self::REQUEST_METHOD_ERROR => [
             'real_info' => '请求方式错误',
+        ],
+        self::CACHE_ERROR => [
+            'real_info' => '缓存错误',
         ],
         self::USER_NOT_EXIST => [
             'real_info' => '用户不存在',

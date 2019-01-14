@@ -2,6 +2,7 @@
 
 namespace App\Sdks\Models\Entity\Mongo;
 
+use App\Sdks\Core\Traits\CacheTraits;
 use App\Sdks\Library\Helpers\DiHelper;
 
 /**
@@ -11,6 +12,8 @@ use App\Sdks\Library\Helpers\DiHelper;
  */
 abstract class MongoEntity
 {
+    use CacheTraits;
+
     protected $mongodb;
 
     public function __construct()
